@@ -1,0 +1,15 @@
+{
+  "name": "attendance-processor",
+  "version": "2.0.0",
+  "description": "Attendance report merger — punch + regularization + leave → XLSX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  }
+}
